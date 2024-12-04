@@ -1,0 +1,7 @@
+{
+  "version": 3,
+  "sources": [],
+  "sections": [
+    {"offset": {"line": 47, "column": 0}, "map": {"version":3,"sources":["turbopack://[project]/middleware.ts"],"sourcesContent":["// export  { default } from \"next-auth/middleware\"\n\nimport { getServerSession } from \"next-auth\"\n// import { useSession } from \"next-auth/react\"\nimport { cookies } from \"next/headers\"\nimport { NextRequest, NextResponse } from \"next/server\"\n\n// This function can be marked `async` if using `await` inside\nexport async function middleware(request: NextRequest) {\n\n  // const { data: session, status } = useSession()\n\n\n  // return NextResponse.json({session: session})\n    // return NextResponse.redirect(new URL('/pricing-table', request.url))\n  }\n\nexport const config = {\n    matcher: [\"/dashboard\"]\n}"],"names":[],"mappings":"AAAA,kDAAkD;;;;;AAQ3C,eAAe,WAAW,OAAoB;AAEnD,iDAAiD;AAGjD,+CAA+C;AAC7C,uEAAuE;AACzE;AAEK,MAAM,SAAS;IAClB,SAAS;QAAC;KAAa;AAC3B"}},
+    {"offset": {"line": 62, "column": 0}, "map": {"version":3,"sources":[],"names":[],"mappings":"A"}}]
+}

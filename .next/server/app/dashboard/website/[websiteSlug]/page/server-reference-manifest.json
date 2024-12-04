@@ -1,0 +1,16 @@
+{
+  "node": {
+    "40492724149310bb406ee314bfff660295d2f9e020": {
+      "workers": {
+        "app/dashboard/website/[websiteSlug]/page": {
+          "moduleId": "[project]/.next-internal/server/app/dashboard/website/[websiteSlug]/page/actions.js { ACTIONS_MODULE0 => \"[project]/app/services/refetchServer.ts [app-rsc] (ecmascript)\" } [app-rsc] (ecmascript)",
+          "async": false
+        }
+      },
+      "layer": {
+        "app/dashboard/website/[websiteSlug]/page": "action-browser"
+      }
+    }
+  },
+  "edge": {}
+}

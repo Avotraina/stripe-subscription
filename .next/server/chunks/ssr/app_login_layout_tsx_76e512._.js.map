@@ -1,0 +1,7 @@
+{
+  "version": 3,
+  "sources": [],
+  "sections": [
+    {"offset": {"line": 7, "column": 0}, "map": {"version":3,"sources":["file:///home/avotraina/projetcts/bun/blog-generator/app/login/layout.tsx"],"sourcesContent":["import React from \"react\";\n\nexport default function Layout({children}: Readonly<{children: React.ReactNode}>) {\n\n    return (\n        <div className=\"flex min-h-screen items-center justify-center bg-gray-100\">\n\t\t\t<div className=\"w-full max-w-md p-8 space-y-6 bg-white rounded-lg shadow-md\">\n\t\t\t\t{children}\n\t\t\t</div>\n\t\t</div>\n    )\n}"],"names":[],"mappings":";;;;;AAEe,SAAS,OAAO,EAAC,QAAQ,EAAwC;IAE5E,qBACI,8OAAC;QAAI,WAAU;kBACpB,cAAA,8OAAC;YAAI,WAAU;sBACb;;;;;;;;;;;AAIL"}},
+    {"offset": {"line": 29, "column": 0}, "map": {"version":3,"sources":[],"names":[],"mappings":"A"}}]
+}

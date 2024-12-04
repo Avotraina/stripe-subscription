@@ -1,0 +1,11 @@
+{
+  "version": 3,
+  "sources": [],
+  "sections": [
+    {"offset": {"line": 7, "column": 0}, "map": {"version":3,"sources":[],"names":[],"mappings":""}},
+    {"offset": {"line": 11, "column": 0}, "map": {"version":3,"sources":[],"names":[],"mappings":"A"}},
+    {"offset": {"line": 17, "column": 0}, "map": {"version":3,"sources":["file:///home/avotraina/projetcts/bun/blog-generator/app/pricing-table/page.tsx"],"sourcesContent":["// \"use client\"\n\nimport React from \"react\";\nimport { useEffect } from \"react\";\nimport { Card, CardContent, CardDescription, CardFooter, CardHeader, CardTitle } from \"@/src/components/ui/card\";\nimport { StripePricingTable } from \"../components/subscription/StripePricingTable\";\n\n\nexport default function PricingTable() {\n\n  return (\n\n\n    // <div className=\" min-h-screen items-center justify-center bg-gray-800\">\n      <div className=\"w-screen h-screen content-center m-auto p-8 space-y-6 rounded-lg shadow-md\">\n        <StripePricingTable />\n      </div>\n    // </div>\n\n    //       <Card className={`w-full h-screen m-auto`}>\n    //         <CardHeader>\n    //           <CardTitle className=\"m-auto\">SUBSCRIPTION LIST</CardTitle>\n    //           <CardDescription className=\"m-auto\">Select the best choice for you</CardDescription>\n    //         </CardHeader>\n    //         <CardContent className=\"h-full m-auto content-center\">\n    //           <StripePricingTable />\n    //         </CardContent>\n    //         <CardFooter>\n    //         </CardFooter>\n    //       </Card>\n  )\n\n};\n\n// export "],"names":[],"mappings":"AAAA,eAAe;;;;;AAKf;;;AAGe,SAAS;IAEtB,OAGE,0EAA0E;kBACxE,8OAAC;QAAI,WAAU;kBACb,cAAA,8OAAC,wJAAA,CAAA,qBAAkB;;;;;;;;;;AAiB3B;CAEA,UAAU"}},
+    {"offset": {"line": 41, "column": 0}, "map": {"version":3,"sources":[],"names":[],"mappings":"A"}},
+    {"offset": {"line": 52, "column": 0}, "map": {"version":3,"sources":[],"names":[],"mappings":""}},
+    {"offset": {"line": 52, "column": 0}, "map": {"version":3,"sources":[],"names":[],"mappings":"A"}}]
+}
